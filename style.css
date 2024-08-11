@@ -62,6 +62,12 @@ nav ul li a:hover{
     color: #A7235F;
 }
 
+.custom-nav{
+    padding: 0 0.75rem 0 1rem;
+    margin: 0;
+    width: 100vw;
+}
+
 .header-text{
     /* background-color: orangered; */
     position: absolute;
@@ -897,7 +903,7 @@ form input, form textarea{
 }
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 385px){
 
     .header-brand 
     {
@@ -918,5 +924,10 @@ form input, form textarea{
     .header-text--2 h2
     {
         font-size: 23px;
+    }
+
+    .portfolio
+    {
+        height: min-content;
     }
 }
