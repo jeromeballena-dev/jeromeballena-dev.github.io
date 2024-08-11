@@ -13,6 +13,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.custom-bg{
+    background-color: #24232360 !important;
+}
+
 /************************************************************HERO SECTION**********************************************************/
 
 .header{
@@ -24,6 +28,7 @@ body{
 }
 
 .header-brand{
+    padding-left: 0.5rem;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -497,7 +502,6 @@ form input:hover, form textarea:hover{
     .header{
         background-image: none;
         background-color: #84827A ;
-
     }
 
 
@@ -526,10 +530,9 @@ form input:hover, form textarea:hover{
     }
 
     .header-brand{
-        padding: 0.55rem 0 0 1.5rem;
-        font-size: 65px;
-        text-align: center;
-
+        padding: 0.1rem;
+        font-size: 60px;
+        text-align: start;
     }
     
     .header-text{
@@ -821,4 +824,99 @@ form input, form textarea{
     }
 
 }
-    
+
+
+@media only screen and (max-width: 810px){
+
+    .header-brand 
+    {
+        font-size: 40px;
+    }
+
+    .header-text
+    {   
+        top: 60%;
+        width: 85%;
+        text-align: center;
+    }
+
+    .header-text h1
+    {
+        font-size: 75px;
+    }
+
+    .about-text
+    {
+        width: 85%;
+    }
+
+    .portfolio
+    {
+        height: 147vh;
+    }
+
+    .portfolio__container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        padding-top: 5vh;
+        height: 70vh;
+    }
+
+    .contact-left
+    {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .contact-left h2
+    {
+        width: 90vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact-left p
+    {
+        text-align: start;
+        margin-left: 4rem;
+    }
+
+    .contact-right
+    {
+        display: none;
+    }
+
+    .footer
+    {
+        height: 10vh;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+
+    .header-brand 
+    {
+        font-size: 40px;
+    }
+
+    .header-text--2
+    {
+        width: 85%;
+        margin-top: 1rem;
+    }
+
+    .header-text--2 h1
+    {
+        font-size: 30px;
+    }
+
+    .header-text--2 h2
+    {
+        font-size: 23px;
+    }
+}
